@@ -1,0 +1,26 @@
+.navbar-nav{
+    float: right; 
+}
+body{
+    background-image: url('https://images.pexels.com/photos/442575/pexels-photo-442575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: 100% 853px;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.container{
+    margin-top: 20%;
+}
+
+.about{
+    color: black;
+    background-color: rgba(255, 102, 102,0.7);
+    position: relative;
+}
+.hobby{
+    background-color: rgba(0,0,0,0.7);
+    color:rgb(255, 102, 102);
+    position: absolute;
+    bottom: -20%;
+    right: 0px;
+}

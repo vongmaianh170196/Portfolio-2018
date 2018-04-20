@@ -7,88 +7,147 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     
+    <!-- My own style -->
+    <link href="css/creative-anja.css" rel="stylesheet">
 
-    <title>Tribute-page FCC</title>
+    <!--Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <title>Anja Vo</title>
   </head>
   <body>
-      <div class="mix-auto">
-          <div class="nav">
-              <ul>
-                  <li>About me</li>
-                  <li>I have done</li>
-                  <li>I have learn</li>
-                  <li>More about me?</li>
+      
+        <nav class="navbar  navbar-expand-md bg-white fixed-top navbar-light shadow-sm">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+                    
+                      <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="nav navbar-nav ">
+                  <li class="nav-item" ><a class="page-scroll nav-link" href="#about">About me</a></li>
+                  <li class="nav-item"><a class="page-scroll nav-link" href="#project">I have done</a></li>
+                  <li class="nav-item"><a class="page-scroll nav-link" href="#skill">I have learnt</a></li>
+                  <li class="nav-item"><a class="page-scroll nav-link" href="#contact">Reach me here!</a></li>
               </ul>
-
-          </div>
-          <div class="container">
-              <div class="about">
-                  <div class="intro">
-                    Hi, there!
-                    My name is Anh (Anja).
-                    I am an enthusiastic learner towards designing by means of coding. I am eager to learn new techniques 
-                    and willing to challenge myself to UI and UX related problems.
-                    "
-                    supposing your application is a barren land, then my job is to make it arable"
+            </div>
+        </nav>  
+        <header>
+                <h1>Anh Vo</h1>
+                <br>
+        </header>
+           
+        <div class="container"> 
+              <section class="about row">
+                  <div class="intro w-75 col-9 p-5 h-75 text-left">
+                   
+                    <h3>Hi,there! :)</h3>
+                    <h5>My name is Anh.</h5>
+                    <h5>Design is my cup of tea and I enjoy creating interactive UI.</h5>
+                    <h5>I am an enthusiastic learner towards designing by means of coding and researching</h5>
+                    <h5> I am eager to learn new techniques 
+                    and willing to challenge myself with UI and UX related problems.</h5>
+                    <br>
+                    <h5 class="text-center">"Supposing your application is a barren land, then my job is to make it arable"</h5>
+                    
                   </div>
-                  <div class="hobby">
-                    Besides coding, I am a 
-                    <ul>
-                        <li>cooking lover</li>
-                        <li>foodaholic</li>
-                        <li>sleepaholic</li>
-                        <li>coffee addicted</li>
-                        <li>and have itchy feet</li>
-                    </ul>
-                  </div>
-
-              </div>
-              <div class="project">
+                  <div class="hobby w-25 col-3 p-3 float-right">
+                        Besides coding, I am a 
+                        <ul>
+                            <li>cooking lover</li>
+                            <li>foodaholic</li>
+                            <li>sleepaholic</li>
+                            <li>coffeeholic</li>
+                            <li>and have itchy feet</li>
+                        </ul>
+                    </div>
+              </section>
+              
+              <section class="project row">
                   <p>During my study, below are projects that I have completed as either UX/UI designer or
                        back-end programer...</p>
-                  <ul>
-                      <li>
-                          <div>
-
-                          </div>
-                     </li>
-                      <li>
-                          <div>
-                          
-                          </div>
-                      </li>
-                       <li>
-                           <div>
-                          
-                           </div>
-                     </li>
-                  </ul>
-
-              </div>
-              <div class="skill">
-                  <p>I am on the way of improving myself. These skills are what I have gotten so far...</p>
-                  <div class="new">
-                      <ul>
-                          <li>React.js</li>
-                          <li>React Native</li>
-                      </ul>
+                  <div class="col-4 bg-white j-do" style="height:20px">
 
                   </div>
-                  <div class="processing">
-                        <ul>
-                            <li>HTML5</li>
-                            <li>Responsive layout with CSS, Bootstrap, Flexbox</li>
-                            <li>jQuery,Ajax</li>
-                            <li>JavaScript</li>
-                            <li>Android Studio</li>
-                            <li>Adobe Photoshop</li>
-                            <li>Usability testing</li>
-                            <li>Agile Framework</li>
-                            <li>MySQL</li>
-                        </ul>
+                  <div class="col-4 bg-dark" style="height:20px">
+                      <div class="row h-50 bg-warning memgame" >
+
+                      </div>
+                      <div class="row h-50 bg-danger jobad">
+
+                      </div>
+
                   </div>
                   
-              </div>
+                  <div class="col-4" style="height:20px">
+                        <div class="row h-50" >
+
+                         </div>
+                        <div class="row h-50 bg-dark planningpoker">
+      
+                         </div>
+
+                  </div>
+                  <div class="col-4 opensour-project-slideshow bg-dark mx-auto" style=" height:20px">
+
+                  </div>
+
+              </section>
+              <section class="skill">
+                  <p>I am on the way of improving myself. These skills are what I have gotten so far...</p>
+                  <div class="row">
+                      <div class="col-3 imgicon">
+                          <img>40%</img>
+                      </div>
+                      <div class="col-6 what">
+                          <h6>Responsive Layout</h6>
+                          <p>CSS, Bootsrap, Flexbox</p>
+                      </div>
+                      <div class="col-3 grade">
+                        <h6>8e</h6>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 imgicon">
+                        <img>40%</img>
+                    </div>
+                    <div class="col-6 what">
+                        <h6>JavaScript and JavaScript Framwork</h6>
+                        <p>Ajax, jQuery, React.js</p>
+                    </div>
+                    <div class="col-3 grade">
+                      <h6>7e</h6>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 imgicon">
+                            <img>40%</img>
+                        </div>
+                        <div class="col-6 what">
+                            <h6>UX designing</h6>
+                            <p>Wireframing, Prototyping with Photoshop, UX principles</p>
+                        </div>
+                        <div class="col-3 grade">
+                          <h6>8e</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 imgicon">
+                            <img>40%</img>
+                        </div>
+                        <div class="col-6 what">
+                            <h6>Others</h6>
+                            <p>Android studio, Agile Framwork, MySQL</p>
+                        </div>
+                        <div class="col-3 grade">
+                          <h6>8e</h6>
+                      </div>
+                    </div>
+                  
+                  
+              </section>
               <div class="contact">
                   <p>If you are interested, reach me here...</p>
 
