@@ -9,19 +9,28 @@ body{
     background-position: center; 
     font-family: 'Roboto Mono', monospace;
 }
+header{
+    margin-top:5%;
+    text-align: center;
+    justify-content: center;
+}
 .container{
-    margin-top: 20%;
+    margin-top: 5%;
 }
 hr{
     border-width: 3px;
 }
-.subtext{
-    background-color: rgb(255, 229, 229);
+ .profile-img{
+    display: box;
+    border-radius: 100%;
+    text-align: center;
+    width:15%;
+    height: 15%;
+    margin: 0 auto;
 }
 
 .about{
     height: 100%;
-    margin-top: 25%;
     padding-bottom: 3%;
     color: black;
     background-color: rgba(247, 238, 238,0.7);
@@ -29,10 +38,19 @@ hr{
 }
 
  .project{
-     background-color: rgba(247, 237, 237, 0.7)
+     background-color: rgba(247, 237, 237, 0.7);
  }
  .skill{
-    background-color: rgba(248, 237, 237, 0.7)
+    background-color: rgba(248, 237, 237, 0.7);
+ }
+ .contact{
+     background-color: rgba(248,238,238,0.7);
+ }
+ footer{
+     background-color: 	rgb(255, 179, 179);
+     height: 25%;
+     margin-bottom:0;
+     
  }
 
  .download-btn{
@@ -53,6 +71,24 @@ hr{
  .contactinfo{
      margin-top: 10%;
  }
+ /*****TEXT-COLOR*****/
+ .subtext{
+    background-color: rgb(255, 229, 229);
+    color: rgb(72, 30, 30);
+}
+h5{
+    color: rgb(72, 30, 30);
+}
+.skill h5{
+    color: rgb(126, 53, 53);
+}
+.footer h6{
+    color: rgb(54, 23, 23);
+}
+header{
+    color: rgb(54, 23, 23);
+    text-decoration: bold;
+}
  /***********OVERLAY */
  .projelem{
     position: relative;
@@ -150,20 +186,20 @@ hr{
     text-decoration: none;
     cursor: pointer;
     color:rgb(247, 237, 237);
-    background-color:rgb(255, 102, 102);
+    background-color:rgb(176, 79, 79);
     text-align: center;
     padding: 0.5%;
 }
 .project-btn:hover{
     text-decoration:none;
-    color: rgb(255, 102, 102);
+    color: rgb(176, 79, 79);
     background-color: rgb(247, 237, 237);
 }
 .project-btn a:link, a:visited{
     text-decoration: none;
     cursor: pointer;
     color:rgb(247, 237, 237);
-    background-color:rgb(255, 102, 102);
+    background-color:rgb(176, 79, 79);
     text-align: center;
 }
 .project-btn a:hover{
@@ -179,8 +215,8 @@ hr{
     width: 0%;
     height: 1rem;
     background:	rgb(102, 153, 255);
-    -webkit-transition: width 2s; 
-    transition: width 2s;
+    -webkit-transition: width 5s; 
+    transition: width 5s;
 }
 .skill:hover .grade-bar-rl{
     width:80%;
@@ -197,12 +233,12 @@ hr{
 /****HOBBY HOVER ANIMATION***/
 .hobby{
     background-color: rgba(0,0,0,0.7);
-    color:rgb(255, 102, 102);
+    color:rgb(247, 237, 237);
     position: absolute;
     bottom: -10%;
     right: 0px;
     width:5%;
-    transition: all 2s ease-out;
+    transition: all 5s ease-out 0s;
     opacity: 0.2;
 }
 .hobby:hover {
