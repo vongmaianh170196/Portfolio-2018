@@ -238,7 +238,7 @@ header{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width:3%;
+    width:0%;
     height:75%;
     transition: all 2s ease-out 0s;
     opacity: 0.1;
@@ -246,16 +246,17 @@ header{
 .hobby:hover {
     bottom: 0px;
     padding-right: 0px;
-    width: 50%;
+    width: 25%;
     opacity: 1;
 }
 .hobby-list{
-    opacity: 0;
+    display: none;
     transition: all 2s ease-out;
 }
 .hobby-list li{
     list-style: none;
 }
 .hobby:hover .hobby-list{
+    display: block;
     opacity: 1;
 }
