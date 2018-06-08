@@ -133,7 +133,9 @@ header{
     transition: all 0.3s ease-in-out 0s;
   }
   
-  .projelem:hover .project-title{
+  .projelem:hover .project-title { 
+    text-decoration
+    : none;   
     top: 50%;
     left: 50%;
     color: papayawhip;
@@ -149,6 +151,9 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+  a:link{
+      text-decoration: none;
   }
 
   /***********OVERLAY */
@@ -191,23 +196,12 @@ header{
     text-align: center;
     padding: 0.5%;
 }
-.project-btn:hover{
+.project-btn:hover, .project-btn:hover a{
     text-decoration:none;
     color: rgb(176, 79, 79);
     background-color: rgb(247, 237, 237);
 }
-.project-btn a:link, a:visited{
-    text-decoration: none;
-    cursor: pointer;
-    color:rgb(247, 237, 237);
-    background-color:rgb(176, 79, 79);
-    text-align: center;
-}
-.project-btn a:hover{
-    text-decoration:none;
-    color: rgb(255, 102, 102);
-    background-color: rgb(247, 237, 237);
-}
+
 /***GRAD BAR ANIMATION***/
 .grade{
     width: 30%;
