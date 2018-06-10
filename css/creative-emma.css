@@ -1,13 +1,21 @@
 .navbar-nav{
     float: right; 
 }
+.logo{
+    color: white;
+    letter-spacing: 2px;
+}
 body{
-    background-image: url('https://images.pexels.com/photos/442575/pexels-photo-442575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../images/background-img.jpg');
+    background-size: 100%;
+    background-color: rgb(234,237,244);
     background-repeat: no-repeat;
-    background-size: 100% 853px;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: top; 
     font-family: 'Roboto Mono', monospace;
+}
+.custom-bg{
+    
 }
 header{
     margin-top:5%;
@@ -34,18 +42,18 @@ hr{
     height: 100%;
     padding-bottom: 3%;
     color: black;
-    background-color: rgba(247, 238, 238,0.7);
+    background-color: rgba(247, 238, 238,1);
     position: relative;
 }
 
  .project{
-     background-color: rgba(247, 237, 237, 0.7);
+     background-color: rgba(247, 237, 237, 1);
  }
  .skill{
-    background-color: rgba(248, 237, 237, 0.7);
+    background-color: rgba(248, 237, 237, 1);
  }
  .contact{
-     background-color: rgba(248,238,238,0.7);
+     background-color: rgba(248,238,238,1);
  }
  footer{
      background-color: 	rgb(255, 179, 179);
@@ -253,4 +261,17 @@ header{
 .hobby:hover .hobby-list{
     display: block;
     opacity: 1;
+}
+/****NAV ***/
+.nav{
+    background-color: rgba(0,0,0,0);
+}
+.navbar a:hover{
+    font-weight: bold;
+    color:rgb(72, 30, 30);
+    padding-bottom: -2;
+    border-bottom: 2px solid rgb(72, 30, 30);
+}
+.navbar a:link, .navbar a:visited{
+    color: black;
 }
