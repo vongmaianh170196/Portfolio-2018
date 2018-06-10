@@ -7,7 +7,7 @@
 }
 body{
     background-image: url('../images/background-img.jpg');
-    background-size: 100%;
+    background-size: 100% 100%;
     background-color: rgb(234,237,244);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -290,5 +290,12 @@ header{
     .intro{
         text-align: center;
         width:100%;
+    }
+    .profile-img{
+        width: 25%;
+        height: 25%;
+    }
+    .skill td{
+        vertical-align: top;
     }
 }
