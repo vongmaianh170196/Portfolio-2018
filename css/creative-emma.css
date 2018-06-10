@@ -14,9 +14,7 @@ body{
     background-position: top; 
     font-family: 'Roboto Mono', monospace;
 }
-.custom-bg{
-    
-}
+
 header{
     margin-top:5%;
     text-align: center;
@@ -98,7 +96,13 @@ header{
     color: rgb(54, 23, 23);
     text-decoration: bold;
 }
- /***********OVERLAY */
+/*****INTRO****/
+.intro{
+    text-align: left;
+    width: 75%;
+}
+/*****INTRO****/
+ /***********OVERLAY PROJELEM*/
  .projelem{
     position: relative;
     width: 90%;
@@ -262,6 +266,7 @@ header{
     display: block;
     opacity: 1;
 }
+
 /****NAV ***/
 .nav{
     background-color: rgba(0,0,0,0);
@@ -274,4 +279,16 @@ header{
 }
 .navbar a:link, .navbar a:visited{
     color: black;
+}
+/****NAV****/
+
+/****MEDIA QUERRY*****/
+@media only screen and (max-width:760px){
+    .hobby{
+        display:none;
+    }
+    .intro{
+        text-align: center;
+        width:100%;
+    }
 }
