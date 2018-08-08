@@ -78,6 +78,9 @@ hr{
  .contactinfo{
      margin-top: 10%;
  }
+ button:hover{
+     cursor: pointer;
+ }
  /*****TEXT-COLOR*****/
  .subtext{
     background-color: rgb(255, 229, 229);
